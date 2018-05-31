@@ -1,0 +1,164 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("Retrocover.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#header{
+	width: 100%;
+	height: 80px;
+	background: #333;
+	box-shadow: 0px 2px 4px gray;
+}
+#navbar{
+	width: 800px;
+	height: 80px;
+	float: right;
+}
+#navbar >li {
+	width: 198px;
+	list-style: none;
+	float: left;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+li>a{
+    display: block;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+li>a:hover, 
+li>a:focus{
+          background: #990000;
+          color: #ffffcc;
+}
+#logo{
+	width: 200px;
+	height: 80px;
+	float: left;
+	padding-left: 70px;
+}
+@media screen and (max-width: 1260px){
+	#navbar{width: 600px;}
+	#navbar>li{width:150px;}
+	#logo>img{width: 150px; height: 80px;}
+}
+@media screen and (max-width: 1200px){
+	#header{width: 100%;height: 60px;position: relative;top: 80px;}
+	#navbar{width: 100%;height: 60px;float: right;}
+	#navbar>li{width: 23%;}
+	li>a{line-height: 60px;font-size: 16px;}
+	#logo{width: 200px;height: 80px;float: left;padding-left: 40px;position: absolute;top: -80px;}
+}
+@media screen and (max-width: 480px){
+	#header{width: 100%;height: 60px;}
+    #navbar{width: 100%;height: 60px;float: none;}
+    #navbar>li{width: 100%;list-style: none;float: none;border-bottom: 1px solid gray;}
+    li>a{display: block;color: white;line-height: 60px;font-size: 16px;background: #333;}
+}
+.video{
+    position: relative;
+    text-align: center;
+}
+.video video{
+	width: 80%;
+}
+.Contact{
+	margin-top: 100px;
+	color: #ffffcc;
+	text-transform: uppercase;
+	text-align: center;
+	transition: all 4s ease-in-out;
+	font-family: 'Indie Flower', cursive;
+}
+.contact-us{
+	display: inline-block;  
+}
+.Contact-us h5{
+	text-decoration: underline;
+	text-size: 10px; 
+}
+.Contact-us label{
+   color: white;
+   text-size: 20px;  
+}
+.find-us-here{
+	display: inline-block;
+	float: right;
+}
+.find-us-here p{
+	text-decoration: underline;
+	color: #ffffcc;
+	font-size: 30px;
+	font-family: 'Indie Flower', cursive;
+
+}
+.maks{
+	padding: 20px;
+	color: #ffffcc;
+	font-family: 'Indie Flower', cursive;
+	
+}
+.col-sm-5 button{
+	background: #990000;
+	border-color: #990000;
+}
+.col-sm-5 button:hover {
+	background: #333;
+	color: #990000;
+	border-color: #333;
+}
+.content{
+	background-color: #ecffca;
+}
+.gallery{
+	width: 700px;
+	height: 500px;
+}
+.img-thumbnail{
+	padding: 0px;
+	margin-left: 80px;
+	margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

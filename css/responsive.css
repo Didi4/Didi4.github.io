@@ -1,0 +1,16 @@
+/**@media  screen and (max-width: 1200px) {
+	#navbar >li {width: 25%;}
+}
+
+@media screen and (max-width: 900px){
+	.gallery{column-count: 3;}
+	#logo{width: 30%}
+	.form-control{font-size: : 11px;}
+}
+
+@media screen and (max-width: 500px){
+	#logo{width: 40%;}
+	.jumbotron{width: 90%; margin-left: 60px;}
+	#navbar li>a{font-size: 17px;}
+	.gallery{margin-top: 0px;}
+}
